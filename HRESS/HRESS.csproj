@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{69B1DF01-AC69-4073-AD13-A46994452FD1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRESS</RootNamespace>
+    <AssemblyName>HRESS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\..\Ajax\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSSJQ\AUTHORS.txt" />
+    <Content Include="CSSJQ\Default.css" />
+    <Content Include="CSSJQ\external\jquery\jquery.js" />
+    <Content Include="CSSJQ\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="CSSJQ\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="CSSJQ\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="CSSJQ\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="CSSJQ\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="CSSJQ\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="CSSJQ\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="CSSJQ\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="CSSJQ\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="CSSJQ\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="CSSJQ\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="CSSJQ\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="CSSJQ\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="CSSJQ\index.html" />
+    <Content Include="CSSJQ\jquery-ui.css" />
+    <Content Include="CSSJQ\jquery-ui.js" />
+    <Content Include="CSSJQ\jquery-ui.min.css" />
+    <Content Include="CSSJQ\jquery-ui.min.js" />
+    <Content Include="CSSJQ\jquery-ui.structure.css" />
+    <Content Include="CSSJQ\jquery-ui.structure.min.css" />
+    <Content Include="CSSJQ\jquery-ui.theme.css" />
+    <Content Include="CSSJQ\jquery-ui.theme.min.css" />
+    <Content Include="CSSJQ\LICENSE.txt" />
+    <Content Include="CSS\BootStrap.css" />
+    <Content Include="CSS\css\Bootstrap.css" />
+    <Content Include="CSS\css\jQueryColorbox.css" />
+    <Content Include="CSS\Default.css" />
+    <Content Include="CSS\DefaultESS.css" />
+    <Content Include="CSS\font-awesome.css" />
+    <Content Include="CSS\font-awesome.min.css" />
+    <Content Include="CSS\Footer.css" />
+    <Content Include="CSS\Header.css" />
+    <Content Include="CSS\Hierarchy.css" />
+    <Content Include="CSS\Iqama.css" />
+    <Content Include="CSS\jquery.contextmenu.css" />
+    <Content Include="CSS\jsWebHR.js" />
+    <Content Include="CSS\js\Bootstrap.js" />
+    <Content Include="CSS\js\Chart.js" />
+    <Content Include="CSS\js\HighCharts.js" />
+    <Content Include="CSS\js\jQuery.js" />
+    <Content Include="CSS\js\jQueryUI.js" />
+    <Content Include="CSS\js\Screw.js" />
+    <Content Include="CSS\js\VectorMap.js" />
+    <Content Include="CSS\Login.css" />
+    <Content Include="CSS\SettingsDM.css" />
+    <Content Include="CSS\WebHRLib.css" />
+    <Content Include="CSS\WebHRSpriteImages.png" />
+    <Content Include="CSS\WebHRStyles.css" />
+    <Content Include="CSS\webhr\BootStrap.css" />
+    <Content Include="CSS\webhr\css\Bootstrap.css" />
+    <Content Include="CSS\webhr\css\jQueryColorbox.css" />
+    <Content Include="CSS\webhr\Default1.css" />
+    <Content Include="CSS\webhr\jsWebHR.js" />
+    <Content Include="CSS\webhr\js\Bootstrap.js" />
+    <Content Include="CSS\webhr\js\Chart.js" />
+    <Content Include="CSS\webhr\js\HighCharts.js" />
+    <Content Include="CSS\webhr\js\jQuery.js" />
+    <Content Include="CSS\webhr\js\jQueryUI.js" />
+    <Content Include="CSS\webhr\js\Screw.js" />
+    <Content Include="CSS\webhr\js\VectorMap.js" />
+    <Content Include="CSS\webhr\WebHRLib.css" />
+    <Content Include="CSS\webhr\WebHRSpriteImages.png" />
+    <Content Include="CSS\webhr\WebHRStyles.css" />
+    <Content Include="DashboardAdmin.aspx" />
+    <Content Include="DashBoardDetails.aspx" />
+    <Content Include="DashboardEss.aspx" />
+    <Content Include="Directory.aspx" />
+    <Content Include="Fonts\fa463\fontawesome-webfont.svg" />
+    <Content Include="Fonts\fa\fontawesome-webfont.svg" />
+    <Content Include="Fonts\fontawesome-webfont.svg" />
+    <Content Include="Fonts\yanonekaffeesatz-light-webfont.svg" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-bold-webfont.svg" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-light-webfont.svg" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-regular-webfont.svg" />
+    <Content Include="Images\ajax-loader.gif" />
+    <Content Include="Images\background.gif" />
+    <Content Include="Images\Banner.png" />
+    <Content Include="Images\barBGblack.JPG" />
+    <Content Include="Images\BITS.PNG" />
+    <Content Include="Images\clear.gif" />
+    <Content Include="Images\content_header_bg.gif" />
+    <Content Include="Images\EmployeeOrg.png" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\File.gif" />
+    <Content Include="Images\Folder.gif" />
+    <Content Include="Images\hbg-bar.gif" />
+    <Content Include="Images\header.jpg" />
+    <Content Include="Images\key_enter.png" />
+    <Content Include="Images\linkedin.png" />
+    <Content Include="Images\lock.png" />
+    <Content Include="Images\main.jpg" />
+    <Content Include="Images\OpenFolder.gif" />
+    <Content Include="Images\progress4.gif" />
+    <Content Include="Images\SARAHRM.png" />
+    <Content Include="Images\SaraLogo.jpg" />
+    <Content Include="Images\SaraLogo.PNG" />
+    <Content Include="Images\tiny-minimize-mo.gif" />
+    <Content Include="Images\topbar.jpg" />
+    <Content Include="Images\tt_bottom.gif" />
+    <Content Include="Images\tt_left.gif" />
+    <Content Include="Images\tt_top.gif" />
+    <Content Include="Images\twiter.png" />
+    <Content Include="Images\Up.gif" />
+    <Content Include="Images\youtube.png" />
+    <Content Include="MyDashboard.aspx" />
+    <Content Include="Payroll.aspx" />
+    <Content Include="PayrollCurrent.aspx" />
+    <Content Include="PayrollHistory.aspx" />
+    <Content Include="Pictures\1111.jpg" />
+    <Content Include="Pictures\2.jpg" />
+    <Content Include="Pictures\2148.jpg" />
+    <Content Include="Pictures\3.jpg" />
+    <Content Include="Pictures\4.jpg" />
+    <Content Include="Pictures\6151.jpg" />
+    <Content Include="Pictures\Employee.png" />
+    <Content Include="Pictures\EmployeeFemale.jpg" />
+    <Content Include="Pictures\EmployeeFemale3D.jpg" />
+    <Content Include="Pictures\EmployeeFemaleSmall.jpg" />
+    <Content Include="Pictures\EmployeeMale.jpg" />
+    <Content Include="Pictures\EmployeeMale3D.jpg" />
+    <Content Include="Pictures\EmployeeMaleSmall.jpg" />
+    <Content Include="Pictures\EmployeeSmall.png" />
+    <Content Include="Scripts\Default.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery-1.8.3.min.js" />
+    <Content Include="Scripts\jquery.contextmenu.js" />
+    <Content Include="Scripts\jsapi.js" />
+    <Content Include="Scripts\Login.js" />
+    <Content Include="Scripts\ProfileScript.js" />
+    <Content Include="Scripts\SettingsDM.js" />
+    <Content Include="Scripts\ToolTip.js" />
+    <Content Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="TempLinks.aspx" />
+    <Content Include="Web References\vdell2001\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="Web References\vdell2001\wsempinfo.disco" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web References\vdell2001\wsempinfo.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassLib1.cs" />
+    <Compile Include="DashboardAdmin.aspx.cs">
+      <DependentUpon>DashboardAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashboardAdmin.aspx.designer.cs">
+      <DependentUpon>DashboardAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoardDetails.aspx.cs">
+      <DependentUpon>DashBoardDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoardDetails.aspx.designer.cs">
+      <DependentUpon>DashBoardDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardEss.aspx.cs">
+      <DependentUpon>DashboardEss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashboardEss.aspx.designer.cs">
+      <DependentUpon>DashboardEss.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Directory.aspx.cs">
+      <DependentUpon>Directory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Directory.aspx.designer.cs">
+      <DependentUpon>Directory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyDashboard.aspx.cs">
+      <DependentUpon>MyDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyDashboard.aspx.designer.cs">
+      <DependentUpon>MyDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payroll.aspx.cs">
+      <DependentUpon>Payroll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payroll.aspx.designer.cs">
+      <DependentUpon>Payroll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollCurrent.aspx.cs">
+      <DependentUpon>PayrollCurrent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PayrollCurrent.aspx.designer.cs">
+      <DependentUpon>PayrollCurrent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollHistory.aspx.cs">
+      <DependentUpon>PayrollHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PayrollHistory.aspx.designer.cs">
+      <DependentUpon>PayrollHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TempLinks.aspx.cs">
+      <DependentUpon>TempLinks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TempLinks.aspx.designer.cs">
+      <DependentUpon>TempLinks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\vdell2001\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\YanoneKaffeesatz-Bold.ttf" />
+    <Content Include="CSS\YanoneKaffeesatz-Light.ttf" />
+    <Content Include="CSS\YanoneKaffeesatz-Regular.ttf" />
+    <Content Include="CSS\YanoneKaffeesatz-Thin.ttf" />
+    <Content Include="CSSJQ\package.json" />
+    <Content Include="Fonts\fa463\fontawesome-webfont.eot" />
+    <Content Include="Fonts\fa463\fontawesome-webfont.ttf" />
+    <Content Include="Fonts\fa463\fontawesome-webfont.woff" />
+    <Content Include="Fonts\fa463\fontawesome-webfont.woff2" />
+    <Content Include="Fonts\fa463\FontAwesome.otf" />
+    <Content Include="Fonts\fa\fontawesome-webfont.eot" />
+    <Content Include="Fonts\fa\fontawesome-webfont.ttf" />
+    <Content Include="Fonts\fa\fontawesome-webfont.woff" />
+    <Content Include="Fonts\fa\fontawesome-webfont.woff2" />
+    <Content Include="Fonts\fa\FontAwesome.eot-" />
+    <Content Include="Fonts\fa\FontAwesome.eot-v=4.4.0" />
+    <Content Include="Fonts\fa\FontAwesome.otf" />
+    <Content Include="Fonts\fa\FontAwesome.svg-v=4.4.0" />
+    <Content Include="Fonts\fa\FontAwesome.ttf-v=4.4.0" />
+    <Content Include="Fonts\fa\FontAwesome.woff-v=4.4.0" />
+    <Content Include="Fonts\fa\FontAwesome.woff2-v=4.4.0" />
+    <Content Include="Fonts\fa\fontello.eot-16266893" />
+    <Content Include="Fonts\fa\fontello.svg-16266893" />
+    <Content Include="Fonts\fa\fontello.ttf-16266893" />
+    <Content Include="Fonts\fa\fontello.woff-16266893" />
+    <Content Include="Fonts\fa\TitilliumWeb.woff2" />
+    <Content Include="Fonts\fa\TitilliumWeb2.woff2" />
+    <Content Include="Fonts\fontawesome-webfont.eot" />
+    <Content Include="Fonts\fontawesome-webfont.ttf" />
+    <Content Include="Fonts\fontawesome-webfont.woff" />
+    <Content Include="Fonts\FontAwesome.otf" />
+    <Content Include="Fonts\yanonekaffeesatz-light-webfont.eot" />
+    <Content Include="Fonts\yanonekaffeesatz-light-webfont.ttf" />
+    <Content Include="Fonts\yanonekaffeesatz-light-webfont.woff" />
+    <Content Include="Fonts\yano\ProximaNova-Light-webfont.eot" />
+    <Content Include="Fonts\yano\ProximaNova-Light-webfont.eot-" />
+    <Content Include="Fonts\yano\ProximaNova-Light-webfont.ttf" />
+    <Content Include="Fonts\yano\ProximaNova-Light-webfont.woff" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-bold-webfont.eot" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-bold-webfont.ttf" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-bold-webfont.woff" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-light-webfont.eot" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-light-webfont.eot-" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-light-webfont.ttf" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-light-webfont.woff" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-regular-webfont.eot" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-regular-webfont.ttf" />
+    <Content Include="Fonts\yano\yanonekaffeesatz-regular-webfont.woff" />
+    <None Include="Properties\PublishProfiles\HRESS.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://vdell2001/wseikv2/wsempinfo.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\vdell2001\</RelPath>
+      <UpdateFromURL>http://vdell2001/wseikv2/wsempinfo.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HRESS_vdell2001_wsempinfo</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TempImageFiles\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61017/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

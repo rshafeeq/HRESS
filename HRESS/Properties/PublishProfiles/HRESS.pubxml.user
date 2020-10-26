@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\HRESS</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>12/14/2013 08:05:02</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>04/12/2013 13:25:38</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:02</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:02</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:02</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>04/12/2013 13:25:46</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:02</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>04/12/2013 13:25:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:02</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>04/12/2013 13:25:46</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:02</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:02</publishTime>
+    </File>
+    <File Include="bin/HRESS.dll">
+      <publishTime>10/23/2016 14:04:19</publishTime>
+    </File>
+    <File Include="bin/HRESS.XmlSerializers.dll">
+      <publishTime>10/23/2016 14:04:20</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>04/12/2013 13:25:38</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:04</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>04/12/2013 13:25:46</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:04</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:04</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>04/12/2013 13:25:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:04</publishTime>
+    </File>
+    <File Include="bin/pl/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:04</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:04</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:04</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:04</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:04</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 08:05:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>04/12/2013 13:25:48</publishTime>
+    </File>
+    <File Include="CSS/BootStrap.css">
+      <publishTime>06/20/2016 15:51:26</publishTime>
+    </File>
+    <File Include="CSS/css/Bootstrap.css">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/css/jQueryColorbox.css">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/Default.css">
+      <publishTime>06/30/2016 12:36:34</publishTime>
+    </File>
+    <File Include="CSS/DefaultESS.css">
+      <publishTime>04/08/2016 15:08:45</publishTime>
+    </File>
+    <File Include="CSS/font-awesome.css">
+      <publishTime>06/29/2016 13:56:53</publishTime>
+    </File>
+    <File Include="CSS/font-awesome.min.css">
+      <publishTime>06/29/2016 13:55:54</publishTime>
+    </File>
+    <File Include="CSS/Footer.css">
+      <publishTime>04/08/2016 16:55:22</publishTime>
+    </File>
+    <File Include="CSS/Header.css">
+      <publishTime>06/21/2016 11:25:24</publishTime>
+    </File>
+    <File Include="CSS/Hierarchy.css">
+      <publishTime>10/11/2016 13:53:07</publishTime>
+    </File>
+    <File Include="CSS/Iqama.css">
+      <publishTime>06/21/2016 13:36:38</publishTime>
+    </File>
+    <File Include="CSS/jquery.contextmenu.css">
+      <publishTime>06/21/2016 11:25:24</publishTime>
+    </File>
+    <File Include="CSS/js/Bootstrap.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/js/Chart.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/js/HighCharts.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/js/jQuery.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/js/jQueryUI.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/js/Screw.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/js/VectorMap.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/jsWebHR.js">
+      <publishTime>06/20/2016 16:24:05</publishTime>
+    </File>
+    <File Include="CSS/Login.css">
+      <publishTime>04/08/2016 16:28:11</publishTime>
+    </File>
+    <File Include="CSS/SettingsDM.css">
+      <publishTime>06/28/2016 13:27:51</publishTime>
+    </File>
+    <File Include="CSS/webhr/BootStrap.css">
+      <publishTime>06/20/2016 15:51:26</publishTime>
+    </File>
+    <File Include="CSS/webhr/css/Bootstrap.css">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/webhr/css/jQueryColorbox.css">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/webhr/Default1.css">
+      <publishTime>06/29/2016 13:31:22</publishTime>
+    </File>
+    <File Include="CSS/webhr/js/Bootstrap.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/webhr/js/Chart.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/webhr/js/HighCharts.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/webhr/js/jQuery.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/webhr/js/jQueryUI.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/webhr/js/Screw.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/webhr/js/VectorMap.js">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/webhr/jsWebHR.js">
+      <publishTime>06/20/2016 16:24:05</publishTime>
+    </File>
+    <File Include="CSS/webhr/WebHRLib.css">
+      <publishTime>06/29/2016 12:21:16</publishTime>
+    </File>
+    <File Include="CSS/webhr/WebHRSpriteImages.png">
+      <publishTime>06/20/2016 16:24:05</publishTime>
+    </File>
+    <File Include="CSS/webhr/WebHRStyles.css">
+      <publishTime>06/29/2016 12:29:03</publishTime>
+    </File>
+    <File Include="CSS/WebHRLib.css">
+      <publishTime>06/20/2016 16:24:05</publishTime>
+    </File>
+    <File Include="CSS/WebHRSpriteImages.png">
+      <publishTime>06/20/2016 16:24:05</publishTime>
+    </File>
+    <File Include="CSS/WebHRStyles.css">
+      <publishTime>06/20/2016 16:24:07</publishTime>
+    </File>
+    <File Include="CSS/YanoneKaffeesatz-Bold.ttf">
+      <publishTime>06/20/2016 14:55:03</publishTime>
+    </File>
+    <File Include="CSS/YanoneKaffeesatz-Light.ttf">
+      <publishTime>06/20/2016 14:55:03</publishTime>
+    </File>
+    <File Include="CSS/YanoneKaffeesatz-Regular.ttf">
+      <publishTime>06/20/2016 14:55:03</publishTime>
+    </File>
+    <File Include="CSS/YanoneKaffeesatz-Thin.ttf">
+      <publishTime>06/20/2016 14:55:03</publishTime>
+    </File>
+    <File Include="CSSJQ/AUTHORS.txt">
+      <publishTime>08/08/2016 12:32:06</publishTime>
+    </File>
+    <File Include="CSSJQ/Default.css">
+      <publishTime>08/08/2016 12:32:06</publishTime>
+    </File>
+    <File Include="CSSJQ/external/jquery/jquery.js">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-bg_glass_100_e4f1fb_1x400.png">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-bg_glass_50_3baae3_1x400.png">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-bg_glass_80_d7ebf9_1x400.png">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-bg_highlight-hard_70_000000_1x100.png">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-bg_highlight-soft_100_deedf7_1x100.png">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-bg_highlight-soft_25_ffef8f_1x100.png">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-icons_2694e8_256x240.png">
+      <publishTime>08/08/2016 12:32:06</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>08/08/2016 12:32:06</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-icons_3d80b3_256x240.png">
+      <publishTime>08/08/2016 12:32:06</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-icons_72a7cf_256x240.png">
+      <publishTime>08/08/2016 12:32:06</publishTime>
+    </File>
+    <File Include="CSSJQ/images/ui-icons_ffffff_256x240.png">
+      <publishTime>08/08/2016 12:32:06</publishTime>
+    </File>
+    <File Include="CSSJQ/index.html">
+      <publishTime>08/09/2016 16:55:24</publishTime>
+    </File>
+    <File Include="CSSJQ/jquery-ui.css">
+      <publishTime>08/08/2016 14:08:46</publishTime>
+    </File>
+    <File Include="CSSJQ/jquery-ui.js">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/jquery-ui.min.css">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/jquery-ui.min.js">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/jquery-ui.structure.css">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/jquery-ui.structure.min.css">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/jquery-ui.theme.css">
+      <publishTime>08/08/2016 13:44:58</publishTime>
+    </File>
+    <File Include="CSSJQ/jquery-ui.theme.min.css">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/LICENSE.txt">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="CSSJQ/package.json">
+      <publishTime>08/08/2016 12:32:05</publishTime>
+    </File>
+    <File Include="DashboardAdmin.aspx">
+      <publishTime>10/23/2016 13:49:53</publishTime>
+    </File>
+    <File Include="DashBoardDetails.aspx">
+      <publishTime>10/23/2016 13:46:11</publishTime>
+    </File>
+    <File Include="Dashboardess.aspx">
+      <publishTime>10/19/2016 13:04:07</publishTime>
+    </File>
+    <File Include="Directory.aspx">
+      <publishTime>10/20/2016 10:07:06</publishTime>
+    </File>
+    <File Include="Fonts/fa/fontawesome-webfont.eot">
+      <publishTime>06/20/2016 15:20:35</publishTime>
+    </File>
+    <File Include="Fonts/fa/fontawesome-webfont.svg">
+      <publishTime>06/20/2016 15:20:35</publishTime>
+    </File>
+    <File Include="Fonts/fa/fontawesome-webfont.ttf">
+      <publishTime>06/20/2016 15:20:35</publishTime>
+    </File>
+    <File Include="Fonts/fa/fontawesome-webfont.woff">
+      <publishTime>06/20/2016 15:20:35</publishTime>
+    </File>
+    <File Include="Fonts/fa/fontawesome-webfont.woff2">
+      <publishTime>06/20/2016 15:20:35</publishTime>
+    </File>
+    <File Include="Fonts/fa/FontAwesome.eot-">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/FontAwesome.eot-v=4.4.0">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/FontAwesome.otf">
+      <publishTime>06/20/2016 15:20:35</publishTime>
+    </File>
+    <File Include="Fonts/fa/FontAwesome.svg-v=4.4.0">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/FontAwesome.ttf-v=4.4.0">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/FontAwesome.woff-v=4.4.0">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/FontAwesome.woff2-v=4.4.0">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/fontello.eot-16266893">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/fontello.svg-16266893">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/fontello.ttf-16266893">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/fontello.woff-16266893">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/TitilliumWeb.woff2">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa/TitilliumWeb2.woff2">
+      <publishTime>06/20/2016 16:09:47</publishTime>
+    </File>
+    <File Include="Fonts/fa463/fontawesome-webfont.eot">
+      <publishTime>06/29/2016 13:55:37</publishTime>
+    </File>
+    <File Include="Fonts/fa463/fontawesome-webfont.svg">
+      <publishTime>06/29/2016 13:55:37</publishTime>
+    </File>
+    <File Include="Fonts/fa463/fontawesome-webfont.ttf">
+      <publishTime>06/29/2016 13:55:37</publishTime>
+    </File>
+    <File Include="Fonts/fa463/fontawesome-webfont.woff">
+      <publishTime>06/29/2016 13:55:37</publishTime>
+    </File>
+    <File Include="Fonts/fa463/fontawesome-webfont.woff2">
+      <publishTime>06/29/2016 13:55:37</publishTime>
+    </File>
+    <File Include="Fonts/fa463/FontAwesome.otf">
+      <publishTime>06/29/2016 13:55:37</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.eot">
+      <publishTime>06/29/2016 13:21:18</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.svg">
+      <publishTime>06/29/2016 13:21:18</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.ttf">
+      <publishTime>06/29/2016 13:21:18</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff">
+      <publishTime>06/29/2016 13:21:18</publishTime>
+    </File>
+    <File Include="Fonts/FontAwesome.otf">
+      <publishTime>06/29/2016 13:21:18</publishTime>
+    </File>
+    <File Include="Fonts/yano/ProximaNova-Light-webfont.eot">
+      <publishTime>06/20/2016 16:11:52</publishTime>
+    </File>
+    <File Include="Fonts/yano/ProximaNova-Light-webfont.eot-">
+      <publishTime>06/20/2016 16:11:52</publishTime>
+    </File>
+    <File Include="Fonts/yano/ProximaNova-Light-webfont.ttf">
+      <publishTime>06/20/2016 16:11:52</publishTime>
+    </File>
+    <File Include="Fonts/yano/ProximaNova-Light-webfont.woff">
+      <publishTime>06/20/2016 16:11:52</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-bold-webfont.eot">
+      <publishTime>06/20/2016 15:10:43</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-bold-webfont.svg">
+      <publishTime>06/20/2016 15:10:43</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-bold-webfont.ttf">
+      <publishTime>06/20/2016 15:10:43</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-bold-webfont.woff">
+      <publishTime>06/20/2016 15:10:43</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-light-webfont.eot">
+      <publishTime>06/20/2016 16:11:52</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-light-webfont.eot-">
+      <publishTime>06/20/2016 16:11:52</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-light-webfont.svg">
+      <publishTime>06/20/2016 15:09:14</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-light-webfont.ttf">
+      <publishTime>06/20/2016 16:11:52</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-light-webfont.woff">
+      <publishTime>06/20/2016 16:11:51</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-regular-webfont.eot">
+      <publishTime>06/20/2016 15:10:42</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-regular-webfont.svg">
+      <publishTime>06/20/2016 15:10:42</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-regular-webfont.ttf">
+      <publishTime>06/20/2016 15:10:42</publishTime>
+    </File>
+    <File Include="Fonts/yano/yanonekaffeesatz-regular-webfont.woff">
+      <publishTime>06/20/2016 15:10:42</publishTime>
+    </File>
+    <File Include="Fonts/yanonekaffeesatz-light-webfont.eot">
+      <publishTime>06/20/2016 15:09:14</publishTime>
+    </File>
+    <File Include="Fonts/yanonekaffeesatz-light-webfont.svg">
+      <publishTime>06/20/2016 15:09:14</publishTime>
+    </File>
+    <File Include="Fonts/yanonekaffeesatz-light-webfont.ttf">
+      <publishTime>06/20/2016 15:09:14</publishTime>
+    </File>
+    <File Include="Fonts/yanonekaffeesatz-light-webfont.woff">
+      <publishTime>06/20/2016 15:09:14</publishTime>
+    </File>
+    <File Include="Images/ajax-loader.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/background.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/Banner.png">
+      <publishTime>06/30/2016 11:20:13</publishTime>
+    </File>
+    <File Include="Images/barBGblack.JPG">
+      <publishTime>06/30/2016 11:14:10</publishTime>
+    </File>
+    <File Include="Images/BITS.PNG">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/clear.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/content_header_bg.gif">
+      <publishTime>06/30/2016 11:14:23</publishTime>
+    </File>
+    <File Include="Images/EmployeeOrg.png">
+      <publishTime>07/21/2016 17:12:35</publishTime>
+    </File>
+    <File Include="Images/facebook.png">
+      <publishTime>04/08/2016 16:26:08</publishTime>
+    </File>
+    <File Include="Images/File.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/Folder.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/hbg-bar.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/header.jpg">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/key_enter.png">
+      <publishTime>06/30/2016 11:16:32</publishTime>
+    </File>
+    <File Include="Images/linkedin.png">
+      <publishTime>04/08/2016 16:26:08</publishTime>
+    </File>
+    <File Include="Images/lock.png">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/main.jpg">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/OpenFolder.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/progress4.gif">
+      <publishTime>06/21/2016 13:35:04</publishTime>
+    </File>
+    <File Include="Images/SARAHRM.png">
+      <publishTime>04/08/2016 15:05:57</publishTime>
+    </File>
+    <File Include="Images/SaraLogo.jpg">
+      <publishTime>04/08/2016 11:30:49</publishTime>
+    </File>
+    <File Include="Images/SaraLogo.PNG">
+      <publishTime>04/08/2016 11:31:13</publishTime>
+    </File>
+    <File Include="Images/tiny-minimize-mo.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/topbar.jpg">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/tt_bottom.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/tt_left.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/tt_top.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/twiter.png">
+      <publishTime>04/08/2016 16:26:08</publishTime>
+    </File>
+    <File Include="Images/Up.gif">
+      <publishTime>06/21/2016 11:15:14</publishTime>
+    </File>
+    <File Include="Images/youtube.png">
+      <publishTime>04/08/2016 16:26:08</publishTime>
+    </File>
+    <File Include="MyDashboard.aspx">
+      <publishTime>10/17/2016 12:32:38</publishTime>
+    </File>
+    <File Include="PayrollCurrent.aspx">
+      <publishTime>10/12/2016 16:51:26</publishTime>
+    </File>
+    <File Include="PayrollHistory.aspx">
+      <publishTime>10/12/2016 12:55:36</publishTime>
+    </File>
+    <File Include="Pictures/1111.jpg">
+      <publishTime>10/16/2016 15:19:42</publishTime>
+    </File>
+    <File Include="Pictures/2.jpg">
+      <publishTime>10/16/2016 15:19:42</publishTime>
+    </File>
+    <File Include="Pictures/2148.jpg">
+      <publishTime>07/19/2016 12:00:09</publishTime>
+    </File>
+    <File Include="Pictures/3.jpg">
+      <publishTime>10/16/2016 15:19:42</publishTime>
+    </File>
+    <File Include="Pictures/4.jpg">
+      <publishTime>10/16/2016 15:19:42</publishTime>
+    </File>
+    <File Include="Pictures/6151.jpg">
+      <publishTime>08/16/2016 10:37:37</publishTime>
+    </File>
+    <File Include="Pictures/Employee.png">
+      <publishTime>06/30/2016 13:44:44</publishTime>
+    </File>
+    <File Include="Pictures/EmployeeFemale.jpg">
+      <publishTime>07/21/2016 15:10:25</publishTime>
+    </File>
+    <File Include="Pictures/EmployeeFemale3D.jpg">
+      <publishTime>07/21/2016 16:33:03</publishTime>
+    </File>
+    <File Include="Pictures/EmployeeFemaleSmall.jpg">
+      <publishTime>07/21/2016 15:14:29</publishTime>
+    </File>
+    <File Include="Pictures/EmployeeMale.jpg">
+      <publishTime>07/21/2016 15:10:25</publishTime>
+    </File>
+    <File Include="Pictures/EmployeeMale3D.jpg">
+      <publishTime>07/21/2016 16:33:03</publishTime>
+    </File>
+    <File Include="Pictures/EmployeeMaleSmall.jpg">
+      <publishTime>07/21/2016 15:14:29</publishTime>
+    </File>
+    <File Include="Pictures/EmployeeSmall.png">
+      <publishTime>06/30/2016 14:05:47</publishTime>
+    </File>
+    <File Include="Scripts/Default.js">
+      <publishTime>06/28/2016 13:15:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>06/21/2016 11:15:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>06/21/2016 11:15:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.3.min.js">
+      <publishTime>01/07/2016 18:11:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.contextmenu.js">
+      <publishTime>06/21/2016 11:15:24</publishTime>
+    </File>
+    <File Include="Scripts/jsapi.js">
+      <publishTime>01/07/2016 18:11:30</publishTime>
+    </File>
+    <File Include="Scripts/Login.js">
+      <publishTime>06/21/2016 11:15:24</publishTime>
+    </File>
+    <File Include="Scripts/ProfileScript.js">
+      <publishTime>08/16/2016 17:25:55</publishTime>
+    </File>
+    <File Include="Scripts/SettingsDM.js">
+      <publishTime>06/28/2016 13:15:14</publishTime>
+    </File>
+    <File Include="Scripts/ToolTip.js">
+      <publishTime>06/21/2016 11:15:24</publishTime>
+    </File>
+    <File Include="Web References/vdell2001/Reference.map">
+      <publishTime>10/12/2016 11:42:07</publishTime>
+    </File>
+    <File Include="Web References/vdell2001/wsempinfo.disco">
+      <publishTime>10/12/2016 11:42:07</publishTime>
+    </File>
+    <File Include="Web References/vdell2001/wsempinfo.wsdl">
+      <publishTime>10/12/2016 11:42:07</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/23/2016 14:04:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

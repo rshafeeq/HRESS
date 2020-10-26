@@ -1,0 +1,133 @@
+﻿@font-face {
+    font-family: 'yanonekaffeesatz-light';
+    src: url('../Fonts/yano/yanonekaffeesatz-light-webfont.eot');
+    src: url('../Fonts/yano/yanonekaffeesatz-light-webfont.eot?#') format('embedded-opentype'), url('../Fonts/yano/yanonekaffeesatz-light-webfont.woff') format('woff'), url('../Fonts/yano/yanonekaffeesatz-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.WebFont1 {
+    font-family: 'yanonekaffeesatz-light', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255, .9);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: white;
+}
+
+#divHeader {
+    width: 100% ;
+    /*width: 900px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lblTitle {
+    font-family: Tahoma;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #6181BA;
+}
+
+.subTitle {
+    background-image: url('../Images/barBGblack.jpg');
+    font-family: Tahoma;
+    font-weight: bold;
+    background-color: #808080;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.ddl {
+    border: 2px solid #004F72;
+    border-radius: 5px;
+    padding: 3px;
+    -webkit-appearance: none;
+    background-position: 88px;
+    background-repeat: no-repeat;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    border: ridge 2px #004F72;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #004e61;
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 12px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 12px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 12px #ffffff;
+    opacity: 0.91;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 14px;
+    line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(top, #0d183b 0%,#003f7a 100%);
+}
+
+.accordion {
+}
+
+
+
+.accordionHeader {
+    border: 1px solid #2F4F4F;
+    color: blue;
+    background-color: #004e61;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-image: url(../images/content_header_bg.gif);
+}
+
+
+
+.accordionHeaderSelected {
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #528381;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+.accordionContent {
+    background-color: #e4edec;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.accordionContent2 {
+    background-color: white;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 1px;
+    padding-top: 1px;
+    /*padding: 5px;
+    padding-top: 10px;*/
+}
+
+a {
+  color: blue;
+  text-decoration: none; /* no underline */
+}

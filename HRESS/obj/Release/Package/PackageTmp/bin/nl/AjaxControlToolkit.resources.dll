@@ -1,0 +1,231 @@
+af33274f2b9.68269152/orangehrmCorporateDirectoryPlugin/css/viewDirectorySuccess.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://fatclient01/orangehrm-3.3.1/symfony/web/webres_554af33274f2b9.68269152/orangehrmBeaconPlugin/css/_beaconAbout.css" />
+</head>
+    <body>
+      
+        <div id="wrapper">
+            
+            <div id="branding">
+                <a href="http://www.orangehrm.com/" target="_blank"><img src="/orangehrm-3.3.1/symfony/web/webres_554af33274f2b9.68269152/themes/default/images/logo.png" width="283" height="56" alt="OrangeHRM"/></a>
+                <!--<a href="http://www.orangehrm.com/user-survey-registration.php" class="subscribe" target="_blank">Join OrangeHRM Community</a>-->
+                <a href="#" id="welcome" class="panelTrigger">Welcome Menandro</a>
+                <div id="welcome-menu" class="panelContainer">
+                    <ul>
+                        <li>
+    <a href="#" data-dismiss="modal" id="aboutDisplayLink">About</a>
+
+    <div class="modal hide" id="displayAbout">
+        <div class="modal-header">
+            <a class="close" data-dismiss="modal">×</a>
+            <h3>About</h3>
+        </div>
+        <form name="frmSelectEmployees" id="frmSelectEmployees" method="post" action="/orangehrm-3.3.1/symfony/web/index.php/communication/beaconAboutAjax" enctype="multipart/form-data">
+            <div class="modal-body">
+                <div id="companyInfo">
+                    <ul>
+                        <li>
+                            <p>Company Name:   </p>
+                        </li>
+                        <li>
+                            <p>Version: Orangehrm OS 3.3.1</p>
+                        </li>
+                        <li>
+                            <p>Active Employees: 1</p>
+                        </li>
+                        <li>
+                            <p>Employees Terminated: 0</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                        </form>
+    </div>
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+
+
+        jQuery('#aboutDisplayLink').click(function (event) {
+            event.stopImmediatePropagation();
+            jQuery('#messageToDisplayAbout').css(
+                    'display', 'none');
+            jQuery('#displayAbout').modal();
+            jQuery('#help-menu.panelContainer').attr('style', 'display:block');
+
+            var test = jQuery('.panelContainer');
+            jQuery('#help-menu.panelContainer').css(
+                    'display', 'block');
+
+        });
+
+        jQuery('#heartbeatSubmitBtn').click(function (event) {
+            event.stopImmediatePropagation();
+            jQuery(this).closest('form').ajaxSubmit(function () {
+                jQuery('#messageToDisplayAbout').html('Saved');
+
+                if (jQuery('#register_registration').is(':checked')) {
+                    jQuery('#registration-section').css(
+                            'display', 'none');
+                }
+                jQuery('#displayAbout').modal('hide');
+                jQuery('#messageToDisplayAbout').css(
+                        'display', 'block');
+                jQuery('#welcome-menu').css('display', 'none');
+            });
+        });
+
+        jQuery('#displayAbout').click(function (event) {
+            event.stopImmediatePropagation();
+        });
+
+        jQuery('#heartbeatCancelBtn').click(function (event) {
+            event.stopImmediatePropagation();
+            jQuery('#welcome-menu').css('display', 'none');
+            jQuery('#displayAbout').modal('hide');
+        });
+
+    })
+</script>
+
+</li>
+                        <li><a href="/orangehrm-3.3.1/symfony/web/index.php/admin/changeUserPassword">Change Password</a></li>
+                        <li><a href="/orangehrm-3.3.1/symfony/web/index.php/auth/logout">Logout</a></li>
+                    </ul>
+                </div>
+                  <!--                <a href="#" id="help" class="panelTrigger">Help & Training</a>
+                <div id="help-menu" class="panelContainer">
+                    <ul>
+                        
+                        <li><a href="http://www.orangehrm.com/support-plans.php?utm_source=application_support&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank">Support</a></li>
+                        <li><a href="http://www.orangehrm.com/training.php?utm_source=application_traning&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank">Training</a></li>
+                        <li><a href="http://www.orangehrm.com/addon-plans.shtml?utm_source=application_addons&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank">Add-Ons</a></li>
+                        <li><a href="http://www.orangehrm.com/customizations.php?utm_source=application_cus&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank">Customizations</a></li>
+                        <li><a href="http://forum.orangehrm.com/" target="_blank">Forum</a></li>
+                        <li><a href="http://blog.orangehrm.com/" target="_blank">Blog</a></li>
+                        <li><a href="http://sourceforge.net/apps/mantisbt/orangehrm/view_all_bug_page.php" target="_blank">Bug Tracker</a></li>                        
+                    </ul>
+                </div>-->
+            </div> <!-- branding -->      
+            
+            
+<div class="menu">
+    
+    <ul>
+        
+                    
+        <li><a href="/orangehrm-3.3.1/symfony/web/index.php/leave/viewLeaveModule" id="menu_leave_viewLeaveModule" class="firstLevelMenu"><b>Leave</b></a>
+            
+            <ul>
+                                    
+                        <li></li>
+                            
+                </ul> <!-- second level -->                        
+            </li>
+            
+                    
+        <li><a href="/orangehrm-3.3.1/symfony/web/index.php/time/viewTimeModule" id="menu_time_viewTimeModule" class="firstLevelMenu"><b>Time</b></a>
+            
+            <ul>
+                                    
+                        <li></li>
+                            
+                </ul> <!-- second level -->                        
+            </li>
+            
+                    
+        <li><a href="/orangehrm-3.3.1/symfony/web/index.php/pim/viewMyDetails" id="menu_pim_viewMyDetails" class="firstLevelMenu"><b>My Info</b></a>
+            
+            <ul>
+                                    
+                        <li></li>
+                            
+                </ul> <!-- second level -->                        
+            </li>
+            
+                    
+        <li><a href="#" id="menu__Performance" class="firstLevelMenu"><b>Performance</b></a>
+            
+            <ul>
+                        
+                    
+                                        
+                        <li><a href="#" id="menu_performance_ManageReviews" class="arrow">Manage Reviews</a>
+                        
+                                                
+                            <ul>
+                                
+                                                                
+                                    <li><a href="/orangehrm-3.3.1/symfony/web/index.php/performance/myPerformanceReview" id="menu_performance_myPerformanceReview">My Reviews</a></li>
+                                
+                                                                
+                                    <li><a href="/orangehrm-3.3.1/symfony/web/index.php/performance/searchEvaluatePerformancReview" id="menu_performance_searchEvaluatePerformancReview">Review List</a></li>
+                                
+                                                                
+                            </ul> <!-- third level -->
+                            
+                                                    
+                        </li>   
+                    
+                                        
+                        <li><a href="/orangehrm-3.3.1/symfony/web/index.php/performance/viewMyPerformanceTrackerList" id="menu_performance_viewMyPerformanceTrackerList">My Trackers</a>
+                        
+                                                    
+                        </li>   
+                    
+                                        
+                        <li><a href="/orangehrm-3.3.1/symfony/web/index.php/performance/viewEmployeePerformanceTrackerList" id="menu_performance_viewEmployeePerformanceTrackerList">Employee Trackers</a>
+                        
+                                                    
+                        </li>   
+                    
+                                                
+                </ul> <!-- second level -->                        
+            </li>
+            
+                    
+        <li><a href="/orangehrm-3.3.1/symfony/web/index.php/dashboard" id="menu_dashboard_index" class="firstLevelMenu"><b>Dashboard</b></a>
+            
+            <ul>
+                                    
+                        <li></li>
+                            
+                </ul> <!-- second level -->                        
+            </li>
+            
+                    
+        <li class="current"><a href="/orangehrm-3.3.1/symfony/web/index.php/directory/viewDirectory/reset/1" id="menu_directory_viewDirectory" class="firstLevelMenu"><b>Directory</b></a>
+            
+            <ul>
+                                    
+                        <li></li>
+                            
+                </ul> <!-- second level -->                        
+            </li>
+            
+                    
+    </ul> <!-- first level -->
+    
+</div> <!-- menu -->
+            <div id="content">
+
+                  
+<div class="box searchForm toggableForm">
+    <div class="head">       
+        <h1>Search Directory</h1>
+    </div>
+    <div class="inner">
+        <form name="frmDirectorySearch" id="search_form" method="post" action="/orangehrm-3.3.1/symfony/web/index.php/directory/viewDirectory">
+            <fieldset>
+
+                <ol>
+<li><label for="searchDirectory_emp_name">Name</label>
+  
+
+<input class="formInputText" type="text" name="searchDirectory[emp_name][empName]" value="" id="searchDirectory_emp_name_empName" />
+
+<input type='hidden' name='searchDirectory[emp_name][empId]' id='searchDirectory_emp_name_empId' value='' />
+
+        <script type="text/javascript">
+
+            var employees_se

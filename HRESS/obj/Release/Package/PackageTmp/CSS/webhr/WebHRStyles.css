@@ -1,0 +1,622 @@
+.container { width: auto; }
+
+.list-unstyled,
+.list-unstyled ul { min-width: 120px }
+
+@media ( min-width: 767px ) {
+  .panel-group { width: 400px; }
+  .thumbnail { margin: 0; }
+}
+
+.stylish-input-group .input-group-addon{ background: white !important; padding:0px;}
+.stylish-input-group .form-control{ box-shadow:0 0 0; border-left:0px; border-color:#ccc; }
+.stylish-input-group button{ border:0px; background:transparent; }
+
+ul.nav li.dropdown:hover > ul.dropdown-menu { display: block; }
+
+.WebHRLogo { height:60px; width:49px; margin-right:10px; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA4MCAxMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPiA8Zz4gIDxwYXRoIGlkPSJzdmdfMSIgZD0ibTgwLjA4MjAwMSw3MC40MTQwMDFjLTAuMzQ1MDAxLC0yLjA1Nzk5OSAtMC43NjkwMTIsLTQuNDUzOTk1IC0xLjE0ODAxLC01LjkxMjAwM2MtMC4zNzUsLTEuNDQ3OTk4IC0xLjA1NiwtMy4zNTA5OTggLTIuNzEzOTg5LC01LjMyODk5NWMtMi4wNDY5OTcsLTIuNDQ0IC00Ljc5MTAxNiwtMy42MTgwMTEgLTQuNzkxMDE2LC0zLjYxODAxMWwtMy41NDI5OTksLTEuNzAxOTk2bC00Ljc2Mzk3NywtMS40MTY5OTJsLTEuNTIwOTk2LC0xLjQxNzAwN2wtNC4wNTUwMjMsLTYuMjM3OTkxbDEuNTQyOTk5LDIuMzczMDAxbDMuNzYwMDEsMTUuNjg2OTk2bC05LjkzMzAxNCwtOS40NTE5OTZsLTEuNDE2OTkyLDAuMDk3OTkybC01LjM3MTk3OSw2LjYxNzAwNGwtMTMuNjgzMDE0LC0yMS4zNjAwMDFsMy40NDYwMTQsLTMuNDAzbDE2LjMxNDk3MiwxNi45MTc5OTlsNS4zNDAwMjcsLTcuNDc3MDA1bC0wLjUwNDAyOCwtMi44MzU5OTlsMC4xMDEwMTMsLTIuMTcxOTk3bDEuNjIxMDAyLC0xLjc5NDAwNmwwLjYwOTAwOSwtMS4wNzM5OWMwLDAgMS40NzA5NzgsLTMuMDcyMDA2IDEuODkzOTgyLC00LjEyNWMwLjI3OTAyMiwtMC42OTU5OTkgMC44MDQwMTYsLTIuMTA3MDEgMC45NzkwMDQsLTIuODM3MDA2YzAuMjczMDEsLTEuMTQ1MDA0IDAuNjQwMDE1LC00LjY2MDk5NSAwLjY0MDAxNSwtNC42NjA5OTVsMC41Mzk5NzgsLTQuOTc3MDA1bDAuNjc1MDE4LC0zLjUyOTAwN2wwLjMwNzAwNywtNC44NTE5OWMwLDAgLTAuMzk1MDIsLTIuMTYzMDEgLTAuNjc3MDAyLC0yLjgzNTAwN2MtMC4yNTIwMTQsLTAuNTk5OTkxIC0wLjk3OTAwNCwtMS42OTQ5OTIgLTEuMzgyMDE5LC0yLjIwNTAwMmMtMC40MDM5OTIsLTAuNTExMDAyIC0xLjM1Njk5NSwtMS40MDU5OTEgLTEuODI2OTk2LC0xLjg1ODAwMmMtMC4zODY5OTMsLTAuMzcyOTg2IC0xLjE1NjAwNiwtMS4xMzA5OTcgLTEuNTg3OTgyLC0xLjQ1MDk4OWMtMC4zNDcwMTUsLTAuMjU3MDA0IC0xLjA5NjAwOCwtMC42OTQgLTEuNDg2MDIzLC0wLjg3ODk5OGMtMC4zNzI5ODYsLTAuMTc3MDAyIC0xLjE1Mjk4NSwtMC40NTgwMDggLTEuNTUwOTk1LC0wLjU2ODAwOGMtMC42NDU5OTYsLTAuMTc5MDAxIC0xLjk3MDAwMSwtMC40MTQwMDEgLTIuNjM0MDAzLC0wLjUwNTk5N2MtMC42MjE5NzksLTAuMDg1OTk5IC0xLjg3NSwtMC4xNzkwMDEgLTIuNTAxMDA3LC0wLjIxODAwMmMtMS4xODEsLTAuMDcyOTk4IC0zLjU1Mjk3OSwtMC4xMjgwMDYgLTQuNzMxOTk1LC0wLjAzMTk5OGMtMC40MTc5OTksMC4wMzM5OTcgLTEuMjQ4OTkzLDAuMTY3OTk5IC0xLjY1MTk3OCwwLjI4MzAwNWMtMC4zODUwMSwwLjEwODk5NCAtMS4xMTcwMDQsMC40NDI5OTMgLTEuNDg2MDIzLDAuNTk3OTkyYy0wLjM4MTk4OSwwLjE2MDAwNCAtMS4xMzk5ODQsMC40OTcwMDkgLTEuNTE5OTg5LDAuNjYyMDAzYy0wLjU0OTAxMSwwLjIzODAwNyAtMS42ODMwMTQsMC42NDM5OTcgLTIuMTk3OTk4LDAuOTQ3MDA2Yy0wLjUzMjk5LDAuMzEyOTg4IC0xLjUwMTAwNywxLjA5Mjk4NyAtMS45NTcwMDEsMS41MDk5OTVjLTAuMzMyMDAxLDAuMzA0MDAxIC0wLjkzMzk5LDAuOTc1OTk4IC0xLjIxODAxOCwxLjMyNDAwNWMtMC4zODE5ODksMC40NjY5OTUgLTEuMTE3OTgxLDEuNDI5OTkzIC0xLjQxNjk5MiwxLjk1Mzk5NWMtMC4zMjQwMDUsMC41NjU5OTQgLTAuODg4LDEuNzU5MDAzIC0xLjA0Njk5NywyLjM5MzAwNWMtMC4yNTUwMDUsMS4wMTE5OTMgLTAuMzM3OTgyLDQuMTU5OTg4IC0wLjMzNzk4Miw0LjE1OTk4OGwtMC4zMDEwMjUsMi4yOTkwMTFjMCwwIC0wLjM0NTk3OCwwLjE0Njk4OCAtMC40MDU5NzUsMC4yNTA5OTJjLTAuNjAyMDIsMS4wNTQwMDEgLTAuMzg1MDEsMy42NzE5OTcgLTAuMTAyMDIsNC44NTI5OTdjMC4wMjg5OTIsMC4xMjIwMDkgMC4yMzU5OTIsMC40NDEwMSAwLjIzNTk5MiwwLjQ0MTAxbDAuMzcyMDA5LDEuNDQ4OTljMCwwIDAuMzYwOTkyLDEuNDA5MDEyIDAuNTQwMDA5LDEuODU4MDAyYzAuMTY1MDA5LDAuNDEyMDAzIDAuNjA1MDExLDEuMTg0MDA2IDAuODEyOTg4LDEuNTc0OTk3YzAuMjE0MDIsMC40MDQwMDcgMC44NzYwMDcsMS42MDcwMSAwLjg3NjAwNywxLjYwNzAxbDAuNTA2MDEyLDEuMTAwOTk4bDAsNC4wMzM5OTdsLTIuOTcxMDA4LDMuMDU1MDA4bC0yLjY2OTAwNiwyLjg2Njk4OWwtMS44NTgwMDIsMi4yMzdsLTYuMDQ2OTk3LDEuODI4MDAzbC01LjY3NDk4OCwxLjc2M2wtNC44MzEwMjQsMS40NDkwMDVjMCwwIC00LjE3Mzk4MSwxLjU4Mjk5MyAtNS4zMDE5NzEsMi41MjIwMDNjLTAuNzEyMDA2LDAuNTg5OTk2IC0xLjc4NjAxMSwyLjE1MTAwMSAtMi4xNjEwMTEsMi45OTE5ODljLTAuNTkzMDE4LDEuMzE3MDAxIC0wLjk5ODk5Myw0LjIyMTAwOCAtMS4yNTIwMTQsNS42MzkwMDhjLTAuMTg1OTc0LDEuMDQxOTkyIC0wLjc1Mzk5OCwzLjEwMjk5NyAtMC44NDUwMDEsNC4xNTg5OTdjLTAuNTIyMDAzLDYuMDI0OTk0IDAuNjEzMDA3LDIyLjMzMjAxNiAzLjE3MDAxMywyMy45ODEwMDNjMTkuOTU4OTg0LDEyLjg5MTk5OCAyMC41NDQwMDYsLTUuMDg4MDEzIDUxLjY0ODAxLDQuOTcwMDAxYzMwLjczNDk4NSw5LjkyOTk5MyAyNi43NTE5ODQsLTAuMjAxOTk2IDIzLjE0NDk4OSwtMjEuNzIwMDAxem0tMjguMTc5OTkzLDAuODQxMDAzbC01LjA2Njk4NiwtMTAuNjgxbDIuMDI2MDAxLC0yLjE3NDk4OGwzLjA0MTk5MiwyLjczNzk5MWwwLDEwLjExNzk5NmwtMC4wMDEwMDcsMHptMTMuNjgxLDcuMTc3OTk0bC0yLjMzMDk5NCwtNS41NzYwMDRsLTMuODUxMDEzLC02LjYxNDk5bC00LjI1Njk4OSwtNS40NzkwMDRsMS4xMTM5ODMsLTMuMjEyOTk3bDYuMzg0MDAzLDUuNzYzOTkybDMuMzQ1MDAxLDEyLjM3ODk5OGwtMC40MDM5OTIsMi43NDAwMDV6IiBmaWxsPSIjMEM2NEFFIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPiA8L2c+PC9zdmc+); }
+.WebHRMenu_Title { font-family:"Titillium Web", sans-serif; font-size:26px; margin-left:6px; color:#0c64ae; }
+.WebHRLeftNav { display:none; }
+
+.WebHRTitle { font-size:20px; }
+.WebHRTitleB { font-size:20px; font-weight:bold; }
+
+.WebHRSuccess { font-family:"Titillium Web", sans-serif; font-size:16px; color:#135a1d; text-align:center; }
+.WebHRFail { font-family:"Titillium Web", sans-serif; font-size:16px; color:#a01313; text-align:center; }
+
+.WebHROSLabel { font-family:"Titillium Web", sans-serif; font-size:15px; color:#8c8c8c; }
+.WebHROSValue { font-family:"Titillium Web", sans-serif; font-size:15px; color:#000; }
+
+.WebHRReportIcon_Selected { padding: 6px 6px 6px 6px; border:1px solid #d9d9d9; border-radius:4px; height:33px; }
+.WebHRReportIcon { padding: 6px 6px 6px 6px; height:33px; }
+
+hr.WebHRFadedLine { clear: both; float: none; width: 100%; height: 1px; margin: 1.4em 0; border: none; background: #ddd; background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0, rgb(255,255,255)), color-stop(0.1, rgb(221,221,221)), color-stop(0.9, rgb(221,221,221)), color-stop(1, rgb(255,255,255)) ); background-image: -moz-linear-gradient( left center, rgb(255,255,255) 0%, rgb(221,221,221) 10%, rgb(221,221,221) 90%, rgb(255,255,255) 100% ); }
+
+.WebHRBox1 { background-color:#fff; width:500px; border-top:1px solid #e1e1e1; border-radius: 2px 2px 2px 2px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;  -webkit-box-shadow: 0 1px 2px #777; -moz-box-shadow: 0 2px 1px #777; box-shadow: 0 2px 1px #777; } 
+.WebHRBox1_FieldTitle { float:left; margin-left:20px; margin-top:12px; width:120px; font-family:"Titillium Web", sans-serif; font-size:12px; color:#7d7d7d; text-align:left; }
+.WebHRBox1_FieldValue { float:left; margin-top:12px; font-family:"Titillium Web", sans-serif; font-size:12px; color:#000000; }
+
+.WebHRBox2 { background-color:#fff; width:500px; border-top:1px solid #e1e1e1; border-radius: 2px 2px 2px 2px; -webkit-box-shadow: 0 1px 2px #777; -moz-box-shadow: 0 2px 1px #777; box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3; } 
+
+.WebHRLeftMenu { cursor: pointer; height:36px; border-radius:4px; background-color:#fff; color:#000; padding:8px 2px 0px 10px; text-decoration:none; margin-top:2px; font-size:13px; }
+.WebHRLeftMenu:hover { cursor: pointer; height:36px; border-radius:4px; background-color:#eeeeee; color:#000; padding:8px 0px 0px 10px; text-decoration:none; margin-top:2px; font-size:13px; }
+
+.WebHRLeftMenu_1 { cursor: pointer; height:36px; border-radius:4px; background-color:#428bca; color:#fff; padding:8px 0px 0px 10px; text-decoration:none; margin-top:2px; font-size:13px; }
+.WebHRLeftMenu_1:hover { cursor: pointer; height:36px; border-radius:4px; background-color:#428bca; color:#fff; padding:8px 0px 0px 10px; text-decoration:none; margin-top:2px; font-size:13px; }
+
+.WebHRTabs { float:left; border-top-left-radius:4px; border-top-right-radius:4px; height:30px; border-bottom:1px solid #cbcbcb; min-width:110px; padding-top:6px; text-align:center; font-size:12px; }
+.WebHRTabs_1 { float:left; border-top-left-radius:4px; border-top-right-radius:4px; height:30px; min-width:110px; text-align:center; border-top:3px solid #428bca; border-left:1px solid #cbcbcb; border-bottom:0px; border-right:1px solid #cbcbcb; padding-top:4px; font-size:12px; background-color:#fff; }
+
+.WebHRSearch { position:relative; width:150px; }
+
+/* Button */
+.WebHRSolidButton_Blue { background-color:#428bca; color:#fff; width:130px; height:34px; border:0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-size:13px; font-family:"Titillium Web", sans-serif; }
+.WebHRSolidButton_Cancel { background-color:#dddddd; color:#000; width:130px; height:34px; border:0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; text-shadow: 0 1px rgba(255, 255, 255, 0.3); font-size:13px; font-family:"Titillium Web", sans-serif; }
+.WebHRSolidButton_Red { background-color:#d9534f; color:#fff; width:130px; height:34px; border:0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-size:13px; font-family:"Titillium Web", sans-serif; }
+
+.WebHRButton {
+  font-family: Trebuchet MS, Arial;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 3px 10px 5px;
+  margin: .5em .5em .5em 0;
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  -webkit-transition: 0.1s linear;
+  -moz-transition: 0.1s linear;
+  -ms-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  transition: 0.1s linear;
+}
+
+.WebHRButton { border-radius: 2px; box-shadow: inset rgba(255,255,255,0.3) 1px 1px 0; }
+.WebHRButton:active { box-shadow: inset rgba(0,0,0,0.4) 0px 0px 6px; }
+
+.WebHRButtons_Blue {
+  background: rgb(130,207,241);
+  background: -moz-linear-gradient(top,  rgba(130,207,241,1) 0%, rgba(56,174,234,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(130,207,241,1)), color-stop(100%,rgba(56,174,234,1)));
+  background: -webkit-linear-gradient(top,  rgba(130,207,241,1) 0%,rgba(56,174,234,1) 100%);
+  background: -o-linear-gradient(top,  rgba(130,207,241,1) 0%,rgba(56,174,234,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(130,207,241,1) 0%,rgba(56,174,234,1) 100%);
+  background: linear-gradient(to bottom,  rgba(130,207,241,1) 0%,rgba(56,174,234,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82cff1', endColorstr='#38aeea',GradientType=0 );
+  border: 1px solid #3cafcf;
+}
+
+.WebHRButtons_Blue:hover
+{
+    background: rgb(153,216,244);
+    background: -moz-linear-gradient(top,  rgba(153,216,244,1) 0%, rgba(79,183,236,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(153,216,244,1)), color-stop(100%,rgba(79,183,236,1)));
+    background: -webkit-linear-gradient(top,  rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+    background: -o-linear-gradient(top,  rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+    background: linear-gradient(to bottom,  rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99d8f4', endColorstr='#4fb7ec',GradientType=0 );
+}
+
+
+.orange {
+  background: rgb(255,183,0);
+  background: -moz-linear-gradient(top,  rgba(255,183,0,1) 0%, rgba(255,140,0,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,183,0,1)), color-stop(100%,rgba(255,140,0,1)));
+  background: -webkit-linear-gradient(top,  rgba(255,183,0,1) 0%,rgba(255,140,0,1) 100%);
+  background: -o-linear-gradient(top,  rgba(255,183,0,1) 0%,rgba(255,140,0,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(255,183,0,1) 0%,rgba(255,140,0,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,183,0,1) 0%,rgba(255,140,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb700', endColorstr='#ff8c00',GradientType=0 );
+  border: 1px solid #e59500;
+}
+
+.orange:hover {
+  background: rgb(255,203,72);
+  background: -moz-linear-gradient(top,  rgba(255,203,72,1) 0%, rgba(255,156,35,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,203,72,1)), color-stop(100%,rgba(255,156,35,1)));
+  background: -webkit-linear-gradient(top,  rgba(255,203,72,1) 0%,rgba(255,156,35,1) 100%);
+  background: -o-linear-gradient(top,  rgba(255,203,72,1) 0%,rgba(255,156,35,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(255,203,72,1) 0%,rgba(255,156,35,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,203,72,1) 0%,rgba(255,156,35,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcb48', endColorstr='#ff9c23',GradientType=0 );
+}
+
+.magenta {
+  background: rgb(255,130,172);
+  background: -moz-linear-gradient(top,  rgba(255,130,172,1) 0%, rgba(247,37,129,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,130,172,1)), color-stop(100%,rgba(247,37,129,1)));
+  background: -webkit-linear-gradient(top,  rgba(255,130,172,1) 0%,rgba(247,37,129,1) 100%);
+  background: -o-linear-gradient(top,  rgba(255,130,172,1) 0%,rgba(247,37,129,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(255,130,172,1) 0%,rgba(247,37,129,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,130,172,1) 0%,rgba(247,37,129,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff82ac', endColorstr='#f72581',GradientType=0 );
+  border: 1px solid #c60a56;
+}
+
+  .magenta:hover {
+    background: rgb(255,155,189);
+    background: -moz-linear-gradient(top,  rgba(255,155,189,1) 0%, rgba(248,62,143,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,155,189,1)), color-stop(100%,rgba(248,62,143,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,155,189,1) 0%,rgba(248,62,143,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,155,189,1) 0%,rgba(248,62,143,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,155,189,1) 0%,rgba(248,62,143,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,155,189,1) 0%,rgba(248,62,143,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9bbd', endColorstr='#f83e8f',GradientType=0 );
+  }
+
+.cyan {
+  background: rgb(130,207,241);
+  background: -moz-linear-gradient(top,  rgba(130,207,241,1) 0%, rgba(56,174,234,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(130,207,241,1)), color-stop(100%,rgba(56,174,234,1)));
+  background: -webkit-linear-gradient(top,  rgba(130,207,241,1) 0%,rgba(56,174,234,1) 100%);
+  background: -o-linear-gradient(top,  rgba(130,207,241,1) 0%,rgba(56,174,234,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(130,207,241,1) 0%,rgba(56,174,234,1) 100%);
+  background: linear-gradient(to bottom,  rgba(130,207,241,1) 0%,rgba(56,174,234,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82cff1', endColorstr='#38aeea',GradientType=0 );
+  border: 1px solid #3cafcf;
+}
+
+  .cyan:hover {
+    background: rgb(153,216,244);
+    background: -moz-linear-gradient(top,  rgba(153,216,244,1) 0%, rgba(79,183,236,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(153,216,244,1)), color-stop(100%,rgba(79,183,236,1)));
+    background: -webkit-linear-gradient(top,  rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+    background: -o-linear-gradient(top,  rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+    background: linear-gradient(to bottom,  rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99d8f4', endColorstr='#4fb7ec',GradientType=0 );
+  }
+  
+.red {
+  background: #e25b53;
+  background: -moz-linear-gradient(top,  #e25b53 0%, #dd2011 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e25b53), color-stop(100%,#dd2011));
+  background: -webkit-linear-gradient(top,  #e25b53 0%,#dd2011 100%);
+  background: -o-linear-gradient(top,  #e25b53 0%,#dd2011 100%);
+  background: -ms-linear-gradient(top,  #e25b53 0%,#dd2011 100%);
+  background: linear-gradient(to bottom,  #e25b53 0%,#dd2011 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e25b53', endColorstr='#dd2011',GradientType=0 );
+  border: 1px solid #c42222;
+}
+
+  .red:hover {
+    background: #dd7671;
+    background: -moz-linear-gradient(top,  #dd7671 0%, #dd2011 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd7671), color-stop(100%,#dd2011));
+    background: -webkit-linear-gradient(top,  #dd7671 0%,#dd2011 100%);
+    background: -o-linear-gradient(top,  #dd7671 0%,#dd2011 100%);
+    background: -ms-linear-gradient(top,  #dd7671 0%,#dd2011 100%);
+    background: linear-gradient(to bottom,  #dd7671 0%,#dd2011 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd7671', endColorstr='#dd2011',GradientType=0 );
+  }
+
+.black {
+  background: #444444;
+  background: -moz-linear-gradient(top,  #444444 0%, #1c1c1c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(100%,#1c1c1c));
+  background: -webkit-linear-gradient(top,  #444444 0%,#1c1c1c 100%);
+  background: -o-linear-gradient(top,  #444444 0%,#1c1c1c 100%);
+  background: -ms-linear-gradient(top,  #444444 0%,#1c1c1c 100%);
+  background: linear-gradient(to bottom,  #444444 0%,#1c1c1c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#1c1c1c',GradientType=0 );
+  border: 1px solid #2a2a2a;
+}
+
+  .black:hover {
+    background: #686868;
+    background: -moz-linear-gradient(top,  #686868 0%, #1c1c1c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#686868), color-stop(100%,#1c1c1c));
+    background: -webkit-linear-gradient(top,  #686868 0%,#1c1c1c 100%);
+    background: -o-linear-gradient(top,  #686868 0%,#1c1c1c 100%);
+    background: -ms-linear-gradient(top,  #686868 0%,#1c1c1c 100%);
+    background: linear-gradient(to bottom,  #686868 0%,#1c1c1c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686868', endColorstr='#1c1c1c',GradientType=0 );
+  }
+
+.green {
+  background: #82cc5d;
+  background: -moz-linear-gradient(top,  #82cc5d 0%, #53b73c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#82cc5d), color-stop(100%,#53b73c));
+  background: -webkit-linear-gradient(top,  #82cc5d 0%,#53b73c 100%);
+  background: -o-linear-gradient(top,  #82cc5d 0%,#53b73c 100%);
+  background: -ms-linear-gradient(top,  #82cc5d 0%,#53b73c 100%);
+  background: linear-gradient(to bottom,  #82cc5d 0%,#53b73c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82cc5d', endColorstr='#53b73c',GradientType=0 );
+  border: 1px solid #429E34;
+}
+
+  .green:hover {
+    background: #99cc80;
+    background: -moz-linear-gradient(top,  #99cc80 0%, #53b73c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#99cc80), color-stop(100%,#53b73c));
+    background: -webkit-linear-gradient(top,  #99cc80 0%,#53b73c 100%);
+    background: -o-linear-gradient(top,  #99cc80 0%,#53b73c 100%);
+    background: -ms-linear-gradient(top,  #99cc80 0%,#53b73c 100%);
+    background: linear-gradient(to bottom,  #99cc80 0%,#53b73c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99cc80', endColorstr='#53b73c',GradientType=0 );
+  }
+
+
+
+/* Icons */   
+.bdownload, .nophoto, .siclouderror, .silargecross, .silargetick, 
+.silargefail, .silargesuccess, .silargewarning, .silargedelete, .ftfile, 
+.ichat, .ihelp, .siannouncement, .sifail, .siinfo3, 
+.siinfo4, .siinfo5, .siinfo6, .silock3, .simail2, 
+.siquestion2, .siquestion3, .sisuccess, .ftexcel, .ftimage, 
+.ftpdf, .ftpowerpoint, .fttext, .ftword, .ftzip, 
+.igreendot, .sichecklist, .sichecklist2, .sicross1, .sidatasync, 
+.siinfo, .siminus1, .sisearch7, .sitick8, .siwarning, 
+.sidetails2, .menucalendar, .menucalendar2, .menuchat, .menuchat2, 
+.menudirectory, .menudirectory2, .menuemployees, .menuemployees2, .menufiles, 
+.menufiles2, .menuhelp, .menuhelp2, .menuhome, .menuhome2, 
+.menuinbox, .menuinbox2, .menumore, .menunotifications, .menunotifications2, 
+.menuorganization, .menuorganization2, .menupayroll, .menupayroll2, .menurecruitment, 
+.menurecruitment2, .menureports, .menureports2, .menusearch, .menutimesheet, 
+.menutimesheet2, .menutrainings, .menutrainings2, .siminus2, .siplus2, 
+.siplus3, .siplus4, .sisearch, .sithumbdown, .sithumbdown2, 
+.sithumbup, .sithumbup2, .siinfo2, .sichat5, .sidataexport, 
+.sidataimport, .sifavorite, .sifavorite2, .sihelp, .sisettings2, 
+.sifilters, .siachievements, .siadjustments, .siadvancesalary, .sianalysis, 
+.siannouncements, .siassignments, .siattendance, .sibenefits, .sibilling, 
+.sibirthday, .siboard, .sibonuses, .sibook, .sicalendar1, 
+.sicalendar2, .sicalendar3, .sicalendar4, .sicalendar5, .sichat1, 
+.sichat2, .sichat3, .sichat4, .sichat6, .sichat7, 
+.siclip, .siclock, .sicommissions, .sicompanies, .sicomplaints, 
+.sicontactus, .sicontactus2, .sicontents, .sicontracts, .sicopytonext, 
+.sicross2, .sicustomreports, .sideductions, .sidelete, .sidelete2, 
+.sidelete3, .sidelete4, .sidepartments, .sidetails, .sidiscussions, 
+.sidisk, .sidisk2, .sidisk3, .sidisk4, .sidisk5, 
+.sidisk6, .sidocuments, .siedit, .siedit2, .siemail2, 
+.siemail3, .siemployee, .siemployeeforms, .siemployees, .siemployees3, 
+.siemployeesdashboard, .siemployeesdirectory, .siemployeesexit, .siemployeesjoining, .siemployeesreports, 
+.siemployeetrainings, .sievents, .siexport, .sifacebook, .sifaqs, 
+.sifilters2, .sifilters3, .sifind, .sifingerprint, .siglobe, 
+.siglobe2, .sigoogleapps, .sigooglemap, .sigraph1, .sigraph10, 
+.sigraph11, .sigraph12, .sigraph2, .sigraph3, .sigraph4, 
+.sigraph5, .sigraph6, .sigraph7, .sigraph8, .sigraph9, 
+.sigraphs, .sihelptopics, .siholidays, .sihourlywages, .sihrreports, 
+.siimages, .siimages2, .siimages3, .siimport, .siimport2, 
+.siinsurance, .sijobcandidates, .sijobinterviews, .sijobportal, .sijobpostrequisitions, 
+.sijobposts, .sijobtests, .sikey, .sileaves, .sileft, 
+.sileft2, .silinkedin, .silivesupport, .silivesupport2, .siloans, 
+.silock, .silock2, .simail, .simeetings, .simemos, 
+.simenu, .simenu2, .simultiple, .sinotes, .siopen, 
+.siorganizationnews, .siorganizationpolicies, .siorganizationprofile, .siorganogram, .siovertimes, 
+.sipayroll, .sipayrolldashboard, .sipayrollreports, .sipayrollstructure, .sipayslip, 
+.siperformanceevaluation, .siphone, .sipinterest, .siplus, .sipolls, 
+.sipreview, .siprint, .siprint2, .siprint3, .siprint4, 
+.siprint5, .siprint6, .siprojects, .sipromotions, .siprovidentfund, 
+.siquestion, .sirecruitment, .sirecruitmentdashboard, .sirecruitmentreports, .sirefresh, 
+.sirefresh2, .sirefresh3, .sirefresh4, .sireimbursements, .sireport, 
+.sireportsgenerator, .sirequestacallback, .sirequisitions, .siresignations, .siresume, 
+.siright, .siright2, .sisalary, .sisalarypayslips, .sischeduler, 
+.siscreening, .sisearch2, .sisearch3, .sisearch4, .sisearch5, 
+.sisearch6, .sisecure, .sisettings, .sisettings3, .sishortlistcandidates, 
+.sisignin, .sisignout, .sispacer, .sistar, .sistar2, 
+.sistations, .sisupporttickets, .sisupporttickets2, .sisystemlogs, .sisystemsettings, 
+.sitasks, .siterminations, .sitick, .sitick2, .sitick3, 
+.sitick6, .sitick7, .sitimeline, .sitimesheetreports, .sitop, 
+.sitrainers, .sitrainingevaluations, .sitrainingevents, .sitrainingneedsassessment, .sitrainingsreports, 
+.sitransfers, .sitravels, .siturnover, .sitwitter, .siupgradeaccount, 
+.siuser, .siuser2, .siuser3, .siuserreply, .siusers, 
+.siwarning2, .siwarnings, .siworksheet, .siworkshifts, .sihelp2, 
+.sitick4, .siclose2, .sitick5, .siclose
+{ display: inline-block; background: url('WebHRSpriteImages.png')/*tpa=http://cdn.webhr.co/WebHRSpriteImages.png*/ no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.bdownload { background-position: -0px -0px; width: 188px; height: 56px; }
+.nophoto { background-position: -0px -56px; width: 170px; height: 200px; }
+.siclouderror { background-position: -0px -256px; width: 128px; height: 128px; }
+.silargecross { background-position: -0px -384px; width: 128px; height: 128px; }
+.silargetick { background-position: -0px -512px; width: 128px; height: 128px; }
+.silargefail { background-position: -0px -640px; width: 75px; height: 75px; }
+.silargesuccess { background-position: -75px -640px; width: 75px; height: 75px; }
+.silargewarning { background-position: -0px -715px; width: 75px; height: 75px; }
+.silargedelete { background-position: -75px -715px; width: 64px; height: 64px; }
+.ftfile { background-position: -128px -256px; width: 48px; height: 48px; }
+.ichat { background-position: -128px -304px; width: 48px; height: 48px; }
+.ihelp { background-position: -128px -352px; width: 48px; height: 48px; }
+.siannouncement { background-position: -128px -400px; width: 48px; height: 48px; }
+.sifail { background-position: -128px -448px; width: 48px; height: 48px; }
+.siinfo3 { background-position: -128px -496px; width: 48px; height: 48px; }
+.siinfo4 { background-position: -128px -544px; width: 48px; height: 48px; }
+.siinfo5 { background-position: -139px -715px; width: 48px; height: 48px; }
+.siinfo6 { background-position: -139px -763px; width: 48px; height: 48px; }
+.silock3 { background-position: -75px -779px; width: 48px; height: 48px; }
+.simail2 { background-position: -0px -790px; width: 48px; height: 48px; }
+.siquestion2 { background-position: -123px -811px; width: 48px; height: 48px; }
+.siquestion3 { background-position: -48px -827px; width: 48px; height: 48px; }
+.sisuccess { background-position: -0px -838px; width: 48px; height: 48px; }
+.ftexcel { background-position: -128px -592px; width: 40px; height: 44px; }
+.ftimage { background-position: -96px -859px; width: 40px; height: 44px; }
+.ftpdf { background-position: -136px -859px; width: 40px; height: 44px; }
+.ftpowerpoint { background-position: -48px -875px; width: 40px; height: 44px; }
+.fttext { background-position: -0px -886px; width: 40px; height: 44px; }
+.ftword { background-position: -88px -903px; width: 40px; height: 44px; }
+.ftzip { background-position: -128px -903px; width: 40px; height: 44px; }
+.igreendot { background-position: -150px -640px; width: 32px; height: 32px; }
+.sichecklist { background-position: -150px -672px; width: 32px; height: 32px; }
+.sichecklist2 { background-position: -40px -919px; width: 32px; height: 32px; }
+.sicross1 { background-position: -0px -930px; width: 32px; height: 32px; }
+.sidatasync { background-position: -72px -947px; width: 32px; height: 32px; }
+.siinfo { background-position: -104px -947px; width: 32px; height: 32px; }
+.siminus1 { background-position: -136px -947px; width: 32px; height: 32px; }
+.sisearch7 { background-position: -32px -951px; width: 32px; height: 32px; }
+.sitick8 { background-position: -0px -962px; width: 32px; height: 32px; }
+.siwarning { background-position: -64px -979px; width: 32px; height: 32px; }
+.sidetails2 { background-position: -48px -790px; width: 26px; height: 26px; }
+.menucalendar { background-position: -96px -827px; width: 24px; height: 24px; }
+.menucalendar2 { background-position: -96px -979px; width: 24px; height: 24px; }
+.menuchat { background-position: -120px -979px; width: 24px; height: 24px; }
+.menuchat2 { background-position: -144px -979px; width: 24px; height: 24px; }
+.menudirectory { background-position: -32px -983px; width: 24px; height: 24px; }
+.menudirectory2 { background-position: -0px -994px; width: 24px; height: 24px; }
+.menuemployees { background-position: -96px -1003px; width: 24px; height: 24px; }
+.menuemployees2 { background-position: -120px -1003px; width: 24px; height: 24px; }
+.menufiles { background-position: -144px -1003px; width: 24px; height: 24px; }
+.menufiles2 { background-position: -24px -1007px; width: 24px; height: 24px; }
+.menuhelp { background-position: -48px -1011px; width: 24px; height: 24px; }
+.menuhelp2 { background-position: -72px -1011px; width: 24px; height: 24px; }
+.menuhome { background-position: -0px -1018px; width: 24px; height: 24px; }
+.menuhome2 { background-position: -96px -1027px; width: 24px; height: 24px; }
+.menuinbox { background-position: -120px -1027px; width: 24px; height: 24px; }
+.menuinbox2 { background-position: -144px -1027px; width: 24px; height: 24px; }
+.menumore { background-position: -24px -1031px; width: 24px; height: 24px; }
+.menunotifications { background-position: -48px -1035px; width: 24px; height: 24px; }
+.menunotifications2 { background-position: -72px -1035px; width: 24px; height: 24px; }
+.menuorganization { background-position: -0px -1042px; width: 24px; height: 24px; }
+.menuorganization2 { background-position: -96px -1051px; width: 24px; height: 24px; }
+.menupayroll { background-position: -120px -1051px; width: 24px; height: 24px; }
+.menupayroll2 { background-position: -144px -1051px; width: 24px; height: 24px; }
+.menurecruitment { background-position: -24px -1055px; width: 24px; height: 24px; }
+.menurecruitment2 { background-position: -48px -1059px; width: 24px; height: 24px; }
+.menureports { background-position: -72px -1059px; width: 24px; height: 24px; }
+.menureports2 { background-position: -0px -1066px; width: 24px; height: 24px; }
+.menusearch { background-position: -96px -1075px; width: 24px; height: 24px; }
+.menutimesheet { background-position: -120px -1075px; width: 24px; height: 24px; }
+.menutimesheet2 { background-position: -144px -1075px; width: 24px; height: 24px; }
+.menutrainings { background-position: -24px -1079px; width: 24px; height: 24px; }
+.menutrainings2 { background-position: -48px -1083px; width: 24px; height: 24px; }
+.siminus2 { background-position: -72px -1083px; width: 24px; height: 24px; }
+.siplus2 { background-position: -0px -1090px; width: 24px; height: 24px; }
+.siplus3 { background-position: -96px -1099px; width: 24px; height: 24px; }
+.siplus4 { background-position: -120px -1099px; width: 24px; height: 24px; }
+.sisearch { background-position: -144px -1099px; width: 24px; height: 24px; }
+.sithumbdown { background-position: -24px -1103px; width: 24px; height: 24px; }
+.sithumbdown2 { background-position: -48px -1107px; width: 24px; height: 24px; }
+.sithumbup { background-position: -72px -1107px; width: 24px; height: 24px; }
+.sithumbup2 { background-position: -0px -1114px; width: 24px; height: 24px; }
+.siinfo2 { background-position: -168px -592px; width: 20px; height: 20px; }
+.sichat5 { background-position: -170px -56px; width: 18px; height: 18px; }
+.sidataexport { background-position: -170px -74px; width: 18px; height: 18px; }
+.sidataimport { background-position: -170px -92px; width: 18px; height: 18px; }
+.sifavorite { background-position: -170px -110px; width: 18px; height: 18px; }
+.sifavorite2 { background-position: -170px -128px; width: 18px; height: 18px; }
+.sihelp { background-position: -170px -146px; width: 18px; height: 18px; }
+.sisettings2 { background-position: -170px -164px; width: 18px; height: 18px; }
+.sifilters { background-position: -170px -182px; width: 17px; height: 16px; }
+.siachievements { background-position: -170px -198px; width: 16px; height: 16px; }
+.siadjustments { background-position: -170px -214px; width: 16px; height: 16px; }
+.siadvancesalary { background-position: -170px -230px; width: 16px; height: 16px; }
+.sianalysis { background-position: -168px -612px; width: 16px; height: 16px; }
+.siannouncements { background-position: -123px -779px; width: 16px; height: 16px; }
+.siassignments { background-position: -171px -811px; width: 16px; height: 16px; }
+.siattendance { background-position: -171px -827px; width: 16px; height: 16px; }
+.sibenefits { background-position: -168px -903px; width: 16px; height: 16px; }
+.sibilling { background-position: -168px -919px; width: 16px; height: 16px; }
+.sibirthday { background-position: -72px -919px; width: 16px; height: 16px; }
+.siboard { background-position: -168px -935px; width: 16px; height: 16px; }
+.sibonuses { background-position: -168px -951px; width: 16px; height: 16px; }
+.sibook { background-position: -168px -967px; width: 16px; height: 16px; }
+.sicalendar1 { background-position: -168px -983px; width: 16px; height: 16px; }
+.sicalendar2 { background-position: -168px -999px; width: 16px; height: 16px; }
+.sicalendar3 { background-position: -168px -1015px; width: 16px; height: 16px; }
+.sicalendar4 { background-position: -168px -1031px; width: 16px; height: 16px; }
+.sicalendar5 { background-position: -168px -1047px; width: 16px; height: 16px; }
+.sichat1 { background-position: -168px -1063px; width: 16px; height: 16px; }
+.sichat2 { background-position: -168px -1079px; width: 16px; height: 16px; }
+.sichat3 { background-position: -168px -1095px; width: 16px; height: 16px; }
+.sichat4 { background-position: -168px -1111px; width: 16px; height: 16px; }
+.sichat6 { background-position: -96px -1123px; width: 16px; height: 16px; }
+.sichat7 { background-position: -112px -1123px; width: 16px; height: 16px; }
+.siclip { background-position: -128px -1123px; width: 16px; height: 16px; }
+.siclock { background-position: -144px -1123px; width: 16px; height: 16px; }
+.sicommissions { background-position: -24px -1127px; width: 16px; height: 16px; }
+.sicompanies { background-position: -160px -1127px; width: 16px; height: 16px; }
+.sicomplaints { background-position: -40px -1131px; width: 16px; height: 16px; }
+.sicontactus { background-position: -56px -1131px; width: 16px; height: 16px; }
+.sicontactus2 { background-position: -72px -1131px; width: 16px; height: 16px; }
+.sicontents { background-position: -0px -1138px; width: 16px; height: 16px; }
+.sicontracts { background-position: -88px -1139px; width: 16px; height: 16px; }
+.sicopytonext { background-position: -104px -1139px; width: 16px; height: 16px; }
+.sicross2 { background-position: -120px -1139px; width: 16px; height: 16px; }
+.sicustomreports { background-position: -136px -1139px; width: 16px; height: 16px; }
+.sideductions { background-position: -16px -1143px; width: 16px; height: 16px; }
+.sidelete { background-position: -152px -1143px; width: 16px; height: 16px; }
+.sidelete2 { background-position: -168px -1143px; width: 16px; height: 16px; }
+.sidelete3 { background-position: -32px -1147px; width: 16px; height: 16px; }
+.sidelete4 { background-position: -48px -1147px; width: 16px; height: 16px; }
+.sidepartments { background-position: -64px -1147px; width: 16px; height: 16px; }
+.sidetails { background-position: -0px -1154px; width: 16px; height: 16px; }
+.sidiscussions { background-position: -80px -1155px; width: 16px; height: 16px; }
+.sidisk { background-position: -96px -1155px; width: 16px; height: 16px; }
+.sidisk2 { background-position: -112px -1155px; width: 16px; height: 16px; }
+.sidisk3 { background-position: -128px -1155px; width: 16px; height: 16px; }
+.sidisk4 { background-position: -16px -1159px; width: 16px; height: 16px; }
+.sidisk5 { background-position: -144px -1159px; width: 16px; height: 16px; }
+.sidisk6 { background-position: -160px -1159px; width: 16px; height: 16px; }
+.sidocuments { background-position: -32px -1163px; width: 16px; height: 16px; }
+.siedit { background-position: -48px -1163px; width: 16px; height: 16px; }
+.siedit2 { background-position: -64px -1163px; width: 16px; height: 16px; }
+.siemail2 { background-position: -0px -1170px; width: 16px; height: 16px; }
+.siemail3 { background-position: -80px -1171px; width: 16px; height: 16px; }
+.siemployee { background-position: -96px -1171px; width: 16px; height: 16px; }
+.siemployeeforms { background-position: -112px -1171px; width: 16px; height: 16px; }
+.siemployees { background-position: -128px -1171px; width: 16px; height: 16px; }
+.siemployees3 { background-position: -16px -1175px; width: 16px; height: 16px; }
+.siemployeesdashboard { background-position: -144px -1175px; width: 16px; height: 16px; }
+.siemployeesdirectory { background-position: -160px -1175px; width: 16px; height: 16px; }
+.siemployeesexit { background-position: -32px -1179px; width: 16px; height: 16px; }
+.siemployeesjoining { background-position: -48px -1179px; width: 16px; height: 16px; }
+.siemployeesreports { background-position: -64px -1179px; width: 16px; height: 16px; }
+.siemployeetrainings { background-position: -0px -1186px; width: 16px; height: 16px; }
+.sievents { background-position: -80px -1187px; width: 16px; height: 16px; }
+.siexport { background-position: -96px -1187px; width: 16px; height: 16px; }
+.sifacebook { background-position: -112px -1187px; width: 16px; height: 16px; }
+.sifaqs { background-position: -128px -1187px; width: 16px; height: 16px; }
+.sifilters2 { background-position: -16px -1191px; width: 16px; height: 16px; }
+.sifilters3 { background-position: -144px -1191px; width: 16px; height: 16px; }
+.sifind { background-position: -160px -1191px; width: 16px; height: 16px; }
+.sifingerprint { background-position: -32px -1195px; width: 16px; height: 16px; }
+.siglobe { background-position: -48px -1195px; width: 16px; height: 16px; }
+.siglobe2 { background-position: -64px -1195px; width: 16px; height: 16px; }
+.sigoogleapps { background-position: -0px -1202px; width: 16px; height: 16px; }
+.sigooglemap { background-position: -80px -1203px; width: 16px; height: 16px; }
+.sigraph1 { background-position: -96px -1203px; width: 16px; height: 16px; }
+.sigraph10 { background-position: -112px -1203px; width: 16px; height: 16px; }
+.sigraph11 { background-position: -128px -1203px; width: 16px; height: 16px; }
+.sigraph12 { background-position: -16px -1207px; width: 16px; height: 16px; }
+.sigraph2 { background-position: -144px -1207px; width: 16px; height: 16px; }
+.sigraph3 { background-position: -160px -1207px; width: 16px; height: 16px; }
+.sigraph4 { background-position: -32px -1211px; width: 16px; height: 16px; }
+.sigraph5 { background-position: -48px -1211px; width: 16px; height: 16px; }
+.sigraph6 { background-position: -64px -1211px; width: 16px; height: 16px; }
+.sigraph7 { background-position: -0px -1218px; width: 16px; height: 16px; }
+.sigraph8 { background-position: -80px -1219px; width: 16px; height: 16px; }
+.sigraph9 { background-position: -96px -1219px; width: 16px; height: 16px; }
+.sigraphs { background-position: -112px -1219px; width: 16px; height: 16px; }
+.sihelptopics { background-position: -128px -1219px; width: 16px; height: 16px; }
+.siholidays { background-position: -16px -1223px; width: 16px; height: 16px; }
+.sihourlywages { background-position: -144px -1223px; width: 16px; height: 16px; }
+.sihrreports { background-position: -160px -1223px; width: 16px; height: 16px; }
+.siimages { background-position: -32px -1227px; width: 16px; height: 16px; }
+.siimages2 { background-position: -48px -1227px; width: 16px; height: 16px; }
+.siimages3 { background-position: -64px -1227px; width: 16px; height: 16px; }
+.siimport { background-position: -0px -1234px; width: 16px; height: 16px; }
+.siimport2 { background-position: -80px -1235px; width: 16px; height: 16px; }
+.siinsurance { background-position: -96px -1235px; width: 16px; height: 16px; }
+.sijobcandidates { background-position: -112px -1235px; width: 16px; height: 16px; }
+.sijobinterviews { background-position: -128px -1235px; width: 16px; height: 16px; }
+.sijobportal { background-position: -16px -1239px; width: 16px; height: 16px; }
+.sijobpostrequisitions { background-position: -144px -1239px; width: 16px; height: 16px; }
+.sijobposts { background-position: -160px -1239px; width: 16px; height: 16px; }
+.sijobtests { background-position: -32px -1243px; width: 16px; height: 16px; }
+.sikey { background-position: -48px -1243px; width: 16px; height: 16px; }
+.sileaves { background-position: -64px -1243px; width: 16px; height: 16px; }
+.sileft { background-position: -0px -1250px; width: 16px; height: 16px; }
+.sileft2 { background-position: -80px -1251px; width: 16px; height: 16px; }
+.silinkedin { background-position: -96px -1251px; width: 16px; height: 16px; }
+.silivesupport { background-position: -112px -1251px; width: 16px; height: 16px; }
+.silivesupport2 { background-position: -128px -1251px; width: 16px; height: 16px; }
+.siloans { background-position: -16px -1255px; width: 16px; height: 16px; }
+.silock { background-position: -144px -1255px; width: 16px; height: 16px; }
+.silock2 { background-position: -160px -1255px; width: 16px; height: 16px; }
+.simail { background-position: -32px -1259px; width: 16px; height: 16px; }
+.simeetings { background-position: -48px -1259px; width: 16px; height: 16px; }
+.simemos { background-position: -64px -1259px; width: 16px; height: 16px; }
+.simenu { background-position: -0px -1266px; width: 16px; height: 16px; }
+.simenu2 { background-position: -80px -1267px; width: 16px; height: 16px; }
+.simultiple { background-position: -96px -1267px; width: 16px; height: 16px; }
+.sinotes { background-position: -112px -1267px; width: 16px; height: 16px; }
+.siopen { background-position: -128px -1267px; width: 16px; height: 16px; }
+.siorganizationnews { background-position: -16px -1271px; width: 16px; height: 16px; }
+.siorganizationpolicies { background-position: -144px -1271px; width: 16px; height: 16px; }
+.siorganizationprofile { background-position: -160px -1271px; width: 16px; height: 16px; }
+.siorganogram { background-position: -32px -1275px; width: 16px; height: 16px; }
+.siovertimes { background-position: -48px -1275px; width: 16px; height: 16px; }
+.sipayroll { background-position: -64px -1275px; width: 16px; height: 16px; }
+.sipayrolldashboard { background-position: -0px -1282px; width: 16px; height: 16px; }
+.sipayrollreports { background-position: -80px -1283px; width: 16px; height: 16px; }
+.sipayrollstructure { background-position: -96px -1283px; width: 16px; height: 16px; }
+.sipayslip { background-position: -112px -1283px; width: 16px; height: 16px; }
+.siperformanceevaluation { background-position: -128px -1283px; width: 16px; height: 16px; }
+.siphone { background-position: -16px -1287px; width: 16px; height: 16px; }
+.sipinterest { background-position: -144px -1287px; width: 16px; height: 16px; }
+.siplus { background-position: -160px -1287px; width: 16px; height: 16px; }
+.sipolls { background-position: -32px -1291px; width: 16px; height: 16px; }
+.sipreview { background-position: -48px -1291px; width: 16px; height: 16px; }
+.siprint { background-position: -64px -1291px; width: 16px; height: 16px; }
+.siprint2 { background-position: -0px -1298px; width: 16px; height: 16px; }
+.siprint3 { background-position: -80px -1299px; width: 16px; height: 16px; }
+.siprint4 { background-position: -96px -1299px; width: 16px; height: 16px; }
+.siprint5 { background-position: -112px -1299px; width: 16px; height: 16px; }
+.siprint6 { background-position: -128px -1299px; width: 16px; height: 16px; }
+.siprojects { background-position: -16px -1303px; width: 16px; height: 16px; }
+.sipromotions { background-position: -144px -1303px; width: 16px; height: 16px; }
+.siprovidentfund { background-position: -160px -1303px; width: 16px; height: 16px; }
+.siquestion { background-position: -32px -1307px; width: 16px; height: 16px; }
+.sirecruitment { background-position: -48px -1307px; width: 16px; height: 16px; }
+.sirecruitmentdashboard { background-position: -64px -1307px; width: 16px; height: 16px; }
+.sirecruitmentreports { background-position: -0px -1314px; width: 16px; height: 16px; }
+.sirefresh { background-position: -80px -1315px; width: 16px; height: 16px; }
+.sirefresh2 { background-position: -96px -1315px; width: 16px; height: 16px; }
+.sirefresh3 { background-position: -112px -1315px; width: 16px; height: 16px; }
+.sirefresh4 { background-position: -128px -1315px; width: 16px; height: 16px; }
+.sireimbursements { background-position: -16px -1319px; width: 16px; height: 16px; }
+.sireport { background-position: -144px -1319px; width: 16px; height: 16px; }
+.sireportsgenerator { background-position: -160px -1319px; width: 16px; height: 16px; }
+.sirequestacallback { background-position: -32px -1323px; width: 16px; height: 16px; }
+.sirequisitions { background-position: -48px -1323px; width: 16px; height: 16px; }
+.siresignations { background-position: -64px -1323px; width: 16px; height: 16px; }
+.siresume { background-position: -0px -1330px; width: 16px; height: 16px; }
+.siright { background-position: -80px -1331px; width: 16px; height: 16px; }
+.siright2 { background-position: -96px -1331px; width: 16px; height: 16px; }
+.sisalary { background-position: -112px -1331px; width: 16px; height: 16px; }
+.sisalarypayslips { background-position: -128px -1331px; width: 16px; height: 16px; }
+.sischeduler { background-position: -16px -1335px; width: 16px; height: 16px; }
+.siscreening { background-position: -144px -1335px; width: 16px; height: 16px; }
+.sisearch2 { background-position: -160px -1335px; width: 16px; height: 16px; }
+.sisearch3 { background-position: -32px -1339px; width: 16px; height: 16px; }
+.sisearch4 { background-position: -48px -1339px; width: 16px; height: 16px; }
+.sisearch5 { background-position: -64px -1339px; width: 16px; height: 16px; }
+.sisearch6 { background-position: -0px -1346px; width: 16px; height: 16px; }
+.sisecure { background-position: -80px -1347px; width: 16px; height: 16px; }
+.sisettings { background-position: -96px -1347px; width: 16px; height: 16px; }
+.sisettings3 { background-position: -112px -1347px; width: 16px; height: 16px; }
+.sishortlistcandidates { background-position: -128px -1347px; width: 16px; height: 16px; }
+.sisignin { background-position: -16px -1351px; width: 16px; height: 16px; }
+.sisignout { background-position: -144px -1351px; width: 16px; height: 16px; }
+.sispacer { background-position: -160px -1351px; width: 16px; height: 16px; }
+.sistar { background-position: -32px -1355px; width: 16px; height: 16px; }
+.sistar2 { background-position: -48px -1355px; width: 16px; height: 16px; }
+.sistations { background-position: -64px -1355px; width: 16px; height: 16px; }
+.sisupporttickets { background-position: -0px -1362px; width: 16px; height: 16px; }
+.sisupporttickets2 { background-position: -80px -1363px; width: 16px; height: 16px; }
+.sisystemlogs { background-position: -96px -1363px; width: 16px; height: 16px; }
+.sisystemsettings { background-position: -112px -1363px; width: 16px; height: 16px; }
+.sitasks { background-position: -128px -1363px; width: 16px; height: 16px; }
+.siterminations { background-position: -16px -1367px; width: 16px; height: 16px; }
+.sitick { background-position: -144px -1367px; width: 16px; height: 16px; }
+.sitick2 { background-position: -160px -1367px; width: 16px; height: 16px; }
+.sitick3 { background-position: -32px -1371px; width: 16px; height: 16px; }
+.sitick6 { background-position: -48px -1371px; width: 16px; height: 16px; }
+.sitick7 { background-position: -64px -1371px; width: 16px; height: 16px; }
+.sitimeline { background-position: -0px -1378px; width: 16px; height: 16px; }
+.sitimesheetreports { background-position: -80px -1379px; width: 16px; height: 16px; }
+.sitop { background-position: -96px -1379px; width: 16px; height: 16px; }
+.sitrainers { background-position: -112px -1379px; width: 16px; height: 16px; }
+.sitrainingevaluations { background-position: -128px -1379px; width: 16px; height: 16px; }
+.sitrainingevents { background-position: -16px -1383px; width: 16px; height: 16px; }
+.sitrainingneedsassessment { background-position: -144px -1383px; width: 16px; height: 16px; }
+.sitrainingsreports { background-position: -160px -1383px; width: 16px; height: 16px; }
+.sitransfers { background-position: -32px -1387px; width: 16px; height: 16px; }
+.sitravels { background-position: -48px -1387px; width: 16px; height: 16px; }
+.siturnover { background-position: -64px -1387px; width: 16px; height: 16px; }
+.sitwitter { background-position: -0px -1394px; width: 16px; height: 16px; }
+.siupgradeaccount { background-position: -80px -1395px; width: 16px; height: 16px; }
+.siuser { background-position: -96px -1395px; width: 16px; height: 16px; }
+.siuser2 { background-position: -112px -1395px; width: 16px; height: 16px; }
+.siuser3 { background-position: -128px -1395px; width: 16px; height: 16px; }
+.siuserreply { background-position: -16px -1399px; width: 16px; height: 16px; }
+.siusers { background-position: -144px -1399px; width: 16px; height: 16px; }
+.siwarning2 { background-position: -160px -1399px; width: 16px; height: 16px; }
+.siwarnings { background-position: -32px -1403px; width: 16px; height: 16px; }
+.siworksheet { background-position: -48px -1403px; width: 16px; height: 16px; }
+.siworkshifts { background-position: -64px -1403px; width: 16px; height: 16px; }
+.sihelp2 { background-position: -123px -795px; width: 13px; height: 13px; }
+.sitick4 { background-position: -176px -256px; width: 12px; height: 16px; }
+.siclose2 { background-position: -176px -272px; width: 10px; height: 10px; }
+.sitick5 { background-position: -170px -246px; width: 10px; height: 7px; }
+.siclose { background-position: -180px -246px; width: 7px; height: 7px; }
